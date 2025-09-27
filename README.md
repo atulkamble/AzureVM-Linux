@@ -86,5 +86,23 @@ sudo apt install git -y
 docker --version
 git --version
 ```
+```
+git init 
+touch a.txt 
+git add a.txt. 
+git commit -m "added code"
+git branch -M main
+ 
+git clone https://github.com/atulkamble/AzureVM-Linux.git
+cd AzureVM-Linux
+git pull 
+python3 helloworld.py 
+nano helloworld.py 
+python3 helloworld.py 
+git add .
+git commit -m "updated code"
+git push origin main
+
+```
 
 ---
