@@ -1,3 +1,25 @@
+```
+az login
+
+az group create \
+  --name myRG \
+  --location eastus
+
+az vm create \
+  --resource-group myRG \
+  --name myVM \
+  --image Ubuntu2204 \
+  --admin-username azureuser \
+  --admin-password 'Password@123'
+
+ssh azureuser@20.94.192.227
+
+az vm open-port \
+  --resource-group myRG \
+  --name myVM \
+  --port 22
+```
+
 ## 🔹 Step 1: Login
 
 ```bash
